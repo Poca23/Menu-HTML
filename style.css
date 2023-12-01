@@ -1,3 +1,14 @@
+.Titre {
+    text-align: center;
+    color: green;
+    background-image: url(assets/Logo.webp);
+    background-repeat: no-repeat;
+    height: 100px;
+    content: all;
+    background-position: 5% 5px;
+    background-size: 100px;
+}
+
 :root {
     --hauteur-menu: 60px;
 }
@@ -14,6 +25,9 @@
     top: 0;
 }
 
+.nav-horizontal {
+    display: flex;
+}
 .nav > ul {
     display: flex;
     text-align: center;
@@ -41,6 +55,7 @@
 }
 
 .menu-deroulant {
+    list-style-type: none;
     width: 100%;
     text-align: left;
     color: rgb(100, 33, 100);
@@ -64,7 +79,7 @@
 
 .sous-menu > li > a {
 height: 50px;
-padding-left: 50px;
+padding-left: 5px;
 width: 100%;
 align-items: center;
 display: flex;
