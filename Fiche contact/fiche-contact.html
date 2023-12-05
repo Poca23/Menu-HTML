@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiche contact</title>
+    <link rel="stylesheet" href="fiche-contact.css">
+</head>
+
+<body>
+    <div class="Contactez-nous">
+        <h1>Contactez-nous</h1>
+        <p>Vous avez une question ? Nh'hésitez pas à nous transmettre vos demandes, nous y répondrons dans les plus
+            brefs délais.</p>
+        <form action="traitement-de-données" method="post">
+
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="nom" placeholder="claire" required>
+            </div>
+
+            <div>
+                <label for="email">Votre e-mail</label>
+                <input type="email" id="email" placeholder="monemail@gmail.com" required>
+            </div>
+
+            <div>
+                <label for="sujet">Quel est le sujet de votre demande</label>
+                <select name="sujet" id="sujet" required>
+                    <option value="" disabled select hidden>Choisissez le sujet de votre message</option>
+                    <option value="probleme-compte">Vous rencontrez un prblème avec votre compte</option>
+                    <option value="question-catalogue">Une question concernant le catalogue</option>
+                    <option value="devis">Vous souhaitez faire un devis ?</option>
+                    <option value="autre">Autre...</option>
+                </select>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                ><textarea name="message" id="message" cols="30" rows="10" placeholder="Bonjur, ..." maxlength="300"
+                    minlength="20"></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer</button>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
