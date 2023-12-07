@@ -11,33 +11,34 @@
 <body>
     <div class="Contactez-nous">
         <h1>Contactez-nous</h1>
-        <p>Vous avez une question ? Nh'hésitez pas à nous transmettre vos demandes, nous y répondrons dans les plus
+        <p>Vous avez une question ?</p>
+        <p>N'hésitez pas à nous transmettre vos demandes, nous y répondrons dans les plus
             brefs délais.</p>
         <form action="traitement-de-données" method="post">
 
             <div>
-                <label for="nom">Votre nom</label>
+                <label for="nom">Votre nom</label><br>
                 <input type="text" id="nom" placeholder="claire" required>
             </div>
 
             <div>
-                <label for="email">Votre e-mail</label>
+                <label for="email">Votre e-mail</label><br>
                 <input type="email" id="email" placeholder="monemail@gmail.com" required>
             </div>
 
             <div>
-                <label for="sujet">Quel est le sujet de votre demande</label>
+                <label for="sujet">Quel est le sujet de votre demande</label><br>
                 <select name="sujet" id="sujet" required>
                     <option value="" disabled select hidden>Choisissez le sujet de votre message</option>
-                    <option value="probleme-compte">Vous rencontrez un prblème avec votre compte</option>
+                    <option value="probleme-compte">Vous rencontrez un problème avec votre compte</option>
                     <option value="question-catalogue">Une question concernant le catalogue</option>
                     <option value="devis">Vous souhaitez faire un devis ?</option>
                     <option value="autre">Autre...</option>
                 </select>
             </div>
             <div>
-                <label for="message">Votre message</label>
-                ><textarea name="message" id="message" cols="30" rows="10" placeholder="Bonjur, ..." maxlength="300"
+                <label for="message">Votre message</label><br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Bonjour, ..." maxlength="300"
                     minlength="20"></textarea>
             </div>
             <div>
