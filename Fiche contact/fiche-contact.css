@@ -2,7 +2,7 @@
     background: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     color: beige;
 }
 
@@ -13,12 +13,12 @@
     padding: 0 50px 0 50px;
     background: rgba(175, 163, 163, 0.297);
     color: rgb(98, 83, 15);
-    text-align:center ;
+    text-align:left ;
 }
 
 .Contactez-nous > h1 {
     font-weight: 800;
-    text-align: center;
+    text-align: left;
     background-color: rgba(128, 90, 0, 0.12);
     border-radius: 7px;
     
@@ -26,13 +26,13 @@
 
 .Contactez-nous > h3 {
     font-weight: 800;
-    text-align: center;
+    text-align: left;
 }
 
 .Contactez-nous > h4 {
     font-weight: 150;
     font-style: italic;
-    text-align: center;
+    text-align: left;
 }
 
 .form div {
@@ -80,7 +80,7 @@
 }
 
 .form div:last-child {
-    align-items: center;
+    align-items: left;
     margin-top: 20px;
 }
 
